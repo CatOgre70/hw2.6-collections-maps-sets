@@ -74,7 +74,7 @@ public class Main {
             words.add(matcher.group().toLowerCase());
         }
 
-        // Difficult printing of words cloud
+        // Difficult printing of word's cloud
         StringBuilder str = new StringBuilder("unique word set = { ");
         ArrayList wordsList = new ArrayList(words);
         int i = 0;
